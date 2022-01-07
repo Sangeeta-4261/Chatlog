@@ -1,0 +1,49 @@
+Write_Up for Chatlog_Application:--
+
+* Private-Chat-Application-using-MongoDB-and-Socket.io
+This repository contains a fully functional private chat application using MongoDB, Socket.io and Express that supports real-time chatting and also allows to retrieve chat when logged in later.
+
+* USING
+1) HTML, CSS 
+2) JavaScript
+3) Node.js and Express.js 
+4) Socket.io 
+5) MongoDB 
+ 
+* Features of this app -
+
+- The app contains real-time chat between two private users
+- The chat history can be retirieved later when the chat is accessed by the user
+- The chat between two people will not be broadcasted to other users online
+- If an active user sends a message to another user while he is offline, the other user will be able to retirieve message later when he accesses the chat
+
+* We use the command as
+1. Install [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/) on your system. Check using the following commands in the terminal -
+
+ node -v
+ mongod --version
+ npm install -D nodemon
+ To run the code we use the command as:- npm start
+```
+
+2. Open your terminal and run the following -
+
+```cmd
+ git clone https://github.com/neelabhsinha/Private-Chat-Application-using-MongoDB-and-Socket.io/
+ cd Private-Chat-Application-using-MongoDB-and-Socket.io
+ npm install
+ node server.js
+```
+
+3. Now, the server is running, open the link http://localhost:5000/chat.html to access the chat interface
+
+4. Type your name and the 2nd person name and press done to establish a connection. You will see the entire chat history retrieved between the two people.
+
+5. Open the same URL in another browser/tab and establish the other half of the connection
+
+6. Send messages from any end to see the functioning
+
+7. Close when you have to exit the chat 
+
+
+
